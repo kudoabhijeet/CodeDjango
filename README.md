@@ -1,5 +1,5 @@
 # CodeDjango
-
+Learn Django in 12 Days.
 ### Overview
 ---
 This repository contains resources and files to learn Django. 
