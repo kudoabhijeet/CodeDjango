@@ -16,4 +16,6 @@ DAY                               |  description
 ----------------------------------|-----------------------
 Day 0                             |  Apps and URLs
 Day 1                             |  Models and Migrations
+Day 3                             |  Admin and Apps
+
 
