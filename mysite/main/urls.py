@@ -19,6 +19,6 @@ from . import views
 app_name = "main"
 
 urlpatterns = [
-    url("/home",views.homepage, name="homepage"),
+    url(r'^home/',views.homepage, name="homepage"),
     url(r'^admin/', admin.site.urls),
 ]
