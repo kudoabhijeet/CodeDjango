@@ -9,13 +9,18 @@ This repository contains resources and files to learn Django.
 - Python
 - HTML , CSS
 
+### Installation 
+  - Windows
+  - Linux
+
 ### Timeline 
 --- 
 
-DAY                               |  description
+DAY                               |  Description
 ----------------------------------|-----------------------
 Day 0                             |  Apps and URLs
 Day 1                             |  Models and Migrations
 Day 3                             |  Admin and Apps
+Day 4                             |  Views and Templates
 
 
