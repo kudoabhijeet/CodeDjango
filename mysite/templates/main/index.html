@@ -1,12 +1,16 @@
 {% extends 'main/base.html' %}
 {% block body %} 
+{% include 'main/navbar.html' %}
    <div class="container">
-    <h1>Hello from Index.js</h1>
+    <h1>Hello from Index Page</h1>
     {{ name }}
-    <ul>
+    <ul class="collection">
     {% for item in lists %}
-        <li>{{ item }}</li>
+        <li class="{% cycle 'bold' '' %} collection-item">{{ item }}</li>
     {% endfor %}
     </ul>
+    <blockquote>
+        This is an example quotation that uses the blockquote tag.
+    </blockquote>
 </div> 
 {% endblock %}
