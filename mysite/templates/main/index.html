@@ -1,11 +1,12 @@
 {% extends 'main/base.html' %}
-{% block head %} {% endblock %}
 {% block body %} 
-<h1>Hello from Index.js</h1>
-{{ name }}
-<ul>
-{% for item in lists %}
-    <li>{{ item }}</li>
-{% endfor %}
-</ul>
+   <div class="container">
+    <h1>Hello from Index.js</h1>
+    {{ name }}
+    <ul>
+    {% for item in lists %}
+        <li>{{ item }}</li>
+    {% endfor %}
+    </ul>
+</div> 
 {% endblock %}
