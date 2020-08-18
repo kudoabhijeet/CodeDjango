@@ -1,10 +1,13 @@
 from django.db import models
+from django.core.validators import (
+    EmailValidator,
+)
 
 # Create your models here.
-class Tutorial(models.Model):
-    tutorial_title = models.CharField(max_length=200)
-    tutorial_content = models.TextField()
-    tutorial_published = models.DateTimeField("date published")
-
-def __str__(self):
-    return self.tutorial_title
+class Student(models.Model):
+    name = models.CharField(max_length = 100)
+    address = models.TextField(null= True)
+    phone  = models.CharField(max_length = 15)
+    
+    def __str__(self):
+        return self.name
